@@ -78,6 +78,10 @@ docker build -f dockerfile.local -t argosj8_local .
 ### Run (local network, with GUI)
 
 ```sh
+xhost -local:root
+```
+
+```sh
 docker run --rm -it \
   --network host \
   -e DISPLAY=$DISPLAY \
