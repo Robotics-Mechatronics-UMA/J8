@@ -102,18 +102,6 @@ docker run --rm -it \
   argosj8_vpn:latest
 ```
 
-### Launching nodes inside the container
-
-Once inside the container the workspace is already sourced. Use the same launch commands as in the local workflow:
-
-```sh
-ros2 launch argj801_setup J8_launch.py \
-  robot:=true \
-  platform_mode:=2 \
-  sensors_source:=lcm_sensors \
-  enable_mpc:=false
-```
-
 ---
 
 ## Usage
