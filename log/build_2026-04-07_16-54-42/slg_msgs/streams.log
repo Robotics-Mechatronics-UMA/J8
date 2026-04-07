@@ -1,0 +1,336 @@
+[0.074s] Invoking command in '/home/rhobtor/PHD/test_j8_hayat/J8/build/slg_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ntrip_client:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/j8_gui:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/car:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/android_ros2_server:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/GUI_pkg:/opt/ros/humble /opt/st/stm32cubeclt_1.18.0/CMake/bin/cmake /home/rhobtor/PHD/test_j8_hayat/J8/src/lidar_process_pkgs/slg_msgs -DCMAKE_INSTALL_PREFIX=/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs
+[1.536s] -- The C compiler identification is GNU 11.4.0
+[1.536s] -- The CXX compiler identification is GNU 11.4.0
+[1.536s] -- Detecting C compiler ABI info
+[1.537s] -- Detecting C compiler ABI info - done
+[1.537s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.537s] -- Detecting C compile features
+[1.537s] -- Detecting C compile features - done
+[1.537s] -- Detecting CXX compiler ABI info
+[1.537s] -- Detecting CXX compiler ABI info - done
+[1.537s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.538s] -- Detecting CXX compile features
+[1.538s] -- Detecting CXX compile features - done
+[1.538s] -- Setting build type to Release as none was specified.
+[1.538s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.538s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.538s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.538s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.539s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.746s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.915s] -- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+[2.032s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[3.779s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.907s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.787s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.796s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[7.796s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[7.796s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[7.796s]   the cmake_policy command to set the policy and suppress this warning.
+[7.797s] 
+[7.797s] Call Stack (most recent call first):
+[7.797s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[7.797s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[7.797s]   CMakeLists.txt:65 (rosidl_generate_interfaces)
+[7.797s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[7.797s] [0m
+[7.860s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[7.919s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[7.920s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[7.920s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[7.920s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[7.920s]   the cmake_policy command to set the policy and suppress this warning.
+[7.920s] 
+[7.920s] Call Stack (most recent call first):
+[7.920s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[7.920s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[7.924s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[7.924s]   CMakeLists.txt:65 (rosidl_generate_interfaces)
+[7.925s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[7.925s] [0m
+[7.973s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[7.974s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[7.974s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[7.974s]   the cmake_policy command to set the policy and suppress this warning.
+[7.974s] 
+[7.975s] Call Stack (most recent call first):
+[7.975s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[7.975s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[7.978s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[7.979s]   CMakeLists.txt:65 (rosidl_generate_interfaces)
+[7.979s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[7.979s] [0m
+[7.984s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[7.985s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.985s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[7.985s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[8.067s] -- Found PythonExtra: .so  
+[9.483s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.831s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[9.853s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.274s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[10.284s] -- Found Threads: TRUE  
+[10.370s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.375s] -- Configured cppcheck include dirs: /home/rhobtor/PHD/test_j8_hayat/J8/src/lidar_process_pkgs/slg_msgs/include;$<BUILD_INTERFACE:/home/rhobtor/PHD/test_j8_hayat/J8/src/lidar_process_pkgs/slg_msgs/include>
+[10.376s] -- Configured cppcheck exclude dirs and/or files: 
+[10.382s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[10.383s] -- Configured cpplint exclude dirs and/or files: 
+[10.391s] -- Added test 'lint_cmake' to check CMake code style
+[10.397s] -- Added test 'uncrustify' to check C / C++ code style
+[10.397s] -- Configured uncrustify additional arguments: 
+[10.403s] -- Added test 'xmllint' to check XML markup files
+[10.426s] -- Configuring done (10.3s)
+[10.758s] -- Generating done (0.3s)
+[10.819s] -- Build files have been written to: /home/rhobtor/PHD/test_j8_hayat/J8/build/slg_msgs
+[10.860s] Invoked command in '/home/rhobtor/PHD/test_j8_hayat/J8/build/slg_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ntrip_client:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/j8_gui:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/car:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/android_ros2_server:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/GUI_pkg:/opt/ros/humble /opt/st/stm32cubeclt_1.18.0/CMake/bin/cmake /home/rhobtor/PHD/test_j8_hayat/J8/src/lidar_process_pkgs/slg_msgs -DCMAKE_INSTALL_PREFIX=/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs
+[10.868s] Invoking command in '/home/rhobtor/PHD/test_j8_hayat/J8/build/slg_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ntrip_client:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/j8_gui:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/car:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/android_ros2_server:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/GUI_pkg:/opt/ros/humble /opt/st/stm32cubeclt_1.18.0/CMake/bin/cmake --build /home/rhobtor/PHD/test_j8_hayat/J8/build/slg_msgs -- -j16 -l16
+[14.371s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[14.371s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[14.371s] [  6%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[14.371s] [  8%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[14.372s] [ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[14.372s] [ 10%] Built target ament_cmake_python_copy_slg_msgs
+[14.372s] running egg_info
+[14.416s] creating slg_msgs.egg-info
+[14.416s] writing slg_msgs.egg-info/PKG-INFO
+[14.421s] writing dependency_links to slg_msgs.egg-info/dependency_links.txt
+[14.426s] writing top-level names to slg_msgs.egg-info/top_level.txt
+[14.427s] writing manifest file 'slg_msgs.egg-info/SOURCES.txt'
+[15.091s] [ 10%] Built target slg_msgs__rs
+[15.253s] reading manifest file 'slg_msgs.egg-info/SOURCES.txt'
+[15.269s] writing manifest file 'slg_msgs.egg-info/SOURCES.txt'
+[15.412s] [ 10%] Built target slg_msgs__cpp
+[15.479s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[15.480s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[15.507s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[15.517s] [ 18%] [32mBuilding C object CMakeFiles/slg_msgs__rosidl_generator_c.dir/rosidl_generator_c/slg_msgs/msg/detail/segment__functions.c.o[0m
+[15.522s] [ 20%] [32mBuilding C object CMakeFiles/slg_msgs__rosidl_generator_c.dir/rosidl_generator_c/slg_msgs/msg/detail/segment_array__functions.c.o[0m
+[15.659s] [ 20%] Built target ament_cmake_python_build_slg_msgs_egg
+[16.739s] [ 22%] [32m[1mLinking C shared library libslg_msgs__rosidl_generator_c.so[0m
+[16.959s] [ 22%] Built target slg_msgs__rosidl_generator_c
+[17.001s] [ 24%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[17.026s] [ 26%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[17.028s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[19.141s] [ 30%] [32mBuilding CXX object CMakeFiles/slg_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slg_msgs/msg/detail/segment_array__type_support.cpp.o[0m
+[19.158s] [ 32%] [32mBuilding CXX object CMakeFiles/slg_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slg_msgs/msg/detail/segment__type_support.cpp.o[0m
+[20.609s] [ 34%] [32mBuilding CXX object CMakeFiles/slg_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slg_msgs/msg/segment__type_support.cpp.o[0m
+[20.626s] [ 36%] [32mBuilding CXX object CMakeFiles/slg_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slg_msgs/msg/segment_array__type_support.cpp.o[0m
+[21.137s] [ 38%] [32mBuilding CXX object CMakeFiles/slg_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/slg_msgs/msg/segment_array__type_support.cpp.o[0m
+[21.144s] [ 40%] [32mBuilding CXX object CMakeFiles/slg_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/slg_msgs/msg/segment__type_support.cpp.o[0m
+[21.311s] [ 42%] [32mBuilding CXX object CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slg_msgs/msg/detail/dds_fastrtps/segment__type_support.cpp.o[0m
+[21.317s] [ 44%] [32mBuilding CXX object CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slg_msgs/msg/detail/dds_fastrtps/segment_array__type_support.cpp.o[0m
+[21.477s] [ 46%] [32m[1mLinking CXX shared library libslg_msgs__rosidl_typesupport_c.so[0m
+[21.881s] [ 48%] [32mBuilding C object CMakeFiles/slg_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slg_msgs/msg/detail/segment__type_support.c.o[0m
+[21.882s] [ 50%] [32mBuilding C object CMakeFiles/slg_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slg_msgs/msg/detail/segment_array__type_support.c.o[0m
+[21.905s] [ 50%] Built target slg_msgs__rosidl_typesupport_c
+[22.307s] [ 52%] [32m[1mLinking C shared library libslg_msgs__rosidl_typesupport_introspection_c.so[0m
+[22.416s] [ 52%] Built target slg_msgs__rosidl_typesupport_introspection_c
+[22.807s] [ 54%] [32mBuilding CXX object CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment_array__type_support_c.cpp.o[0m
+[22.807s] [ 56%] [32mBuilding CXX object CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment__type_support_c.cpp.o[0m
+[23.034s] [ 58%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[23.181s] [ 58%] Built target gtest_main
+[23.223s] [ 60%] [32m[1mLinking CXX shared library libslg_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[23.461s] [ 60%] Built target slg_msgs__rosidl_typesupport_introspection_cpp
+[23.529s] [ 62%] [32m[1mLinking CXX shared library libslg_msgs__rosidl_typesupport_cpp.so[0m
+[23.721s] [ 62%] Built target slg_msgs__rosidl_typesupport_cpp
+[26.340s] [ 64%] [32m[1mLinking CXX shared library libslg_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[27.088s] [ 66%] [32m[1mLinking CXX shared library libslg_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[27.131s] [ 66%] Built target slg_msgs__rosidl_typesupport_fastrtps_cpp
+[27.368s] [ 66%] Built target slg_msgs__rosidl_typesupport_fastrtps_c
+[52.870s] [ 68%] [32m[1mLinking CXX static library libgtest.a[0m
+[52.930s] [ 68%] Built target gtest
+[52.964s] [ 68%] Built target slg_msgs
+[52.995s] [ 70%] [32mBuilding CXX object test/CMakeFiles/test_segment2d.dir/test_segment2d.cpp.o[0m
+[62.924s] [ 72%] [32m[1mLinking CXX executable test_segment2d[0m
+[63.086s] [ 72%] Built target test_segment2d
+[63.106s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[64.228s] [ 74%] Built target slg_msgs__py
+[64.254s] [ 76%] [32mBuilding CXX object test/CMakeFiles/test_polygon.dir/test_polygon.cpp.o[0m
+[68.634s] [ 78%] [32m[1mLinking CXX executable test_polygon[0m
+[68.777s] [ 78%] Built target test_polygon
+[68.799s] [ 80%] [32mBuilding C object CMakeFiles/slg_msgs__rosidl_generator_py.dir/rosidl_generator_py/slg_msgs/msg/_segment_s.c.o[0m
+[69.000s] [ 82%] [32mBuilding C object CMakeFiles/slg_msgs__rosidl_generator_py.dir/rosidl_generator_py/slg_msgs/msg/_segment_array_s.c.o[0m
+[69.188s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/slg_msgs/libslg_msgs__rosidl_generator_py.so[0m
+[69.248s] [ 84%] Built target slg_msgs__rosidl_generator_py
+[69.269s] [ 86%] [32mBuilding CXX object test/CMakeFiles/test_point2d.dir/test_point2d.cpp.o[0m
+[71.845s] [ 88%] [32m[1mLinking CXX executable test_point2d[0m
+[71.975s] [ 88%] Built target test_point2d
+[72.000s] [ 90%] [32mBuilding C object CMakeFiles/slg_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/slg_msgs/_slg_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[72.185s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/slg_msgs/slg_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[72.237s] [ 92%] Built target slg_msgs__rosidl_typesupport_c__pyext
+[72.261s] [ 94%] [32mBuilding C object CMakeFiles/slg_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/slg_msgs/_slg_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[72.460s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/slg_msgs/slg_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[72.519s] [ 96%] Built target slg_msgs__rosidl_typesupport_introspection_c__pyext
+[72.542s] [ 98%] [32mBuilding C object CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/slg_msgs/_slg_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[72.726s] [100%] [32m[1mLinking C shared library rosidl_generator_py/slg_msgs/slg_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[72.776s] [100%] Built target slg_msgs__rosidl_typesupport_fastrtps_c__pyext
+[72.787s] Invoked command in '/home/rhobtor/PHD/test_j8_hayat/J8/build/slg_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ntrip_client:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/j8_gui:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/car:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/android_ros2_server:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/GUI_pkg:/opt/ros/humble /opt/st/stm32cubeclt_1.18.0/CMake/bin/cmake --build /home/rhobtor/PHD/test_j8_hayat/J8/build/slg_msgs -- -j16 -l16
+[72.789s] Invoking command in '/home/rhobtor/PHD/test_j8_hayat/J8/build/slg_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ntrip_client:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/j8_gui:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/car:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/android_ros2_server:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/GUI_pkg:/opt/ros/humble /opt/st/stm32cubeclt_1.18.0/CMake/bin/cmake --install /home/rhobtor/PHD/test_j8_hayat/J8/build/slg_msgs
+[72.794s] -- Install configuration: "Release"
+[72.795s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/ament_index/resource_index/rosidl_interfaces/slg_msgs
+[72.795s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs
+[72.795s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg
+[72.795s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/segment_array.h
+[72.795s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/segment.h
+[72.796s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/rosidl_generator_c__visibility_control.h
+[72.796s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/detail
+[72.796s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/detail/segment__functions.c
+[72.796s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/detail/segment__type_support.h
+[72.796s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/detail/segment_array__functions.h
+[72.797s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/detail/segment_array__functions.c
+[72.797s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/detail/segment_array__type_support.h
+[72.797s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/detail/segment__struct.h
+[72.797s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/detail/segment__functions.h
+[72.797s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/detail/segment_array__struct.h
+[72.797s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/environment/library_path.sh
+[72.798s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/environment/library_path.dsv
+[72.798s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/lib/libslg_msgs__rosidl_generator_c.so
+[72.798s] -- Set non-toolchain portion of runtime path of "/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/lib/libslg_msgs__rosidl_generator_c.so" to ""
+[72.798s] -- Up-to-date: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs
+[72.798s] -- Up-to-date: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg
+[72.798s] -- Up-to-date: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/detail
+[72.799s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/detail/segment_array__rosidl_typesupport_fastrtps_c.h
+[72.799s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/detail/segment__rosidl_typesupport_fastrtps_c.h
+[72.799s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[72.799s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/lib/libslg_msgs__rosidl_typesupport_fastrtps_c.so
+[72.799s] -- Set non-toolchain portion of runtime path of "/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/lib/libslg_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[72.800s] -- Up-to-date: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs
+[72.800s] -- Up-to-date: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg
+[72.800s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[72.801s] -- Up-to-date: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/detail
+[72.801s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/detail/segment__type_support.c
+[72.801s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/detail/segment_array__type_support.c
+[72.801s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/detail/segment_array__rosidl_typesupport_introspection_c.h
+[72.801s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/detail/segment__rosidl_typesupport_introspection_c.h
+[72.801s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/lib/libslg_msgs__rosidl_typesupport_introspection_c.so
+[72.802s] -- Set non-toolchain portion of runtime path of "/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/lib/libslg_msgs__rosidl_typesupport_introspection_c.so" to ""
+[72.802s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/lib/libslg_msgs__rosidl_typesupport_c.so
+[72.802s] -- Set non-toolchain portion of runtime path of "/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/lib/libslg_msgs__rosidl_typesupport_c.so" to ""
+[72.802s] -- Up-to-date: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs
+[72.802s] -- Up-to-date: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg
+[72.803s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[72.803s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/segment_array.hpp
+[72.803s] -- Up-to-date: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/detail
+[72.803s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/detail/segment_array__type_support.hpp
+[72.803s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/detail/segment__struct.hpp
+[72.803s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/detail/segment_array__builder.hpp
+[72.804s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/detail/segment__builder.hpp
+[72.804s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/detail/segment_array__struct.hpp
+[72.804s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/detail/segment__type_support.hpp
+[72.804s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/detail/segment_array__traits.hpp
+[72.804s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/detail/segment__traits.hpp
+[72.804s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/segment.hpp
+[72.805s] -- Up-to-date: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs
+[72.805s] -- Up-to-date: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg
+[72.805s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[72.805s] -- Up-to-date: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/detail
+[72.805s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/detail/segment_array__rosidl_typesupport_fastrtps_cpp.hpp
+[72.806s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/detail/segment__rosidl_typesupport_fastrtps_cpp.hpp
+[72.806s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/detail/dds_fastrtps
+[72.806s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/lib/libslg_msgs__rosidl_typesupport_fastrtps_cpp.so
+[72.806s] -- Set non-toolchain portion of runtime path of "/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/lib/libslg_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[72.806s] -- Up-to-date: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs
+[72.807s] -- Up-to-date: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg
+[72.807s] -- Up-to-date: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/detail
+[72.807s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/detail/segment_array__type_support.cpp
+[72.807s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/detail/segment__rosidl_typesupport_introspection_cpp.hpp
+[72.807s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/detail/segment_array__rosidl_typesupport_introspection_cpp.hpp
+[72.807s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/slg_msgs/msg/detail/segment__type_support.cpp
+[72.807s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/lib/libslg_msgs__rosidl_typesupport_introspection_cpp.so
+[72.808s] -- Set non-toolchain portion of runtime path of "/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/lib/libslg_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[72.808s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/lib/libslg_msgs__rosidl_typesupport_cpp.so
+[72.808s] -- Set non-toolchain portion of runtime path of "/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/lib/libslg_msgs__rosidl_typesupport_cpp.so" to ""
+[72.808s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/environment/pythonpath.sh
+[72.808s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/environment/pythonpath.dsv
+[72.808s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/local/lib/python3.10/dist-packages/slg_msgs-3.8.0-py3.10.egg-info
+[72.808s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/local/lib/python3.10/dist-packages/slg_msgs-3.8.0-py3.10.egg-info/top_level.txt
+[72.809s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/local/lib/python3.10/dist-packages/slg_msgs-3.8.0-py3.10.egg-info/SOURCES.txt
+[72.809s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/local/lib/python3.10/dist-packages/slg_msgs-3.8.0-py3.10.egg-info/PKG-INFO
+[72.809s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/local/lib/python3.10/dist-packages/slg_msgs-3.8.0-py3.10.egg-info/dependency_links.txt
+[72.809s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/local/lib/python3.10/dist-packages/slg_msgs
+[72.809s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/local/lib/python3.10/dist-packages/slg_msgs/slg_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[72.809s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/local/lib/python3.10/dist-packages/slg_msgs/_slg_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[72.809s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/local/lib/python3.10/dist-packages/slg_msgs/_slg_msgs_s.ep.rosidl_typesupport_c.c
+[72.810s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/local/lib/python3.10/dist-packages/slg_msgs/_slg_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[72.810s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/local/lib/python3.10/dist-packages/slg_msgs/__init__.py
+[72.810s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/local/lib/python3.10/dist-packages/slg_msgs/slg_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[72.810s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/local/lib/python3.10/dist-packages/slg_msgs/slg_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[72.810s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/local/lib/python3.10/dist-packages/slg_msgs/msg
+[72.810s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/local/lib/python3.10/dist-packages/slg_msgs/msg/_segment_array_s.c
+[72.810s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/local/lib/python3.10/dist-packages/slg_msgs/msg/__init__.py
+[72.811s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/local/lib/python3.10/dist-packages/slg_msgs/msg/_segment_array.py
+[72.811s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/local/lib/python3.10/dist-packages/slg_msgs/msg/_segment_s.c
+[72.811s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/local/lib/python3.10/dist-packages/slg_msgs/msg/_segment.py
+[72.811s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/local/lib/python3.10/dist-packages/slg_msgs/libslg_msgs__rosidl_generator_py.so
+[72.878s] Listing '/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/local/lib/python3.10/dist-packages/slg_msgs'...
+[72.878s] Compiling '/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/local/lib/python3.10/dist-packages/slg_msgs/__init__.py'...
+[72.878s] Listing '/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/local/lib/python3.10/dist-packages/slg_msgs/msg'...
+[72.878s] Compiling '/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/local/lib/python3.10/dist-packages/slg_msgs/msg/__init__.py'...
+[72.879s] Compiling '/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/local/lib/python3.10/dist-packages/slg_msgs/msg/_segment.py'...
+[72.879s] Compiling '/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/local/lib/python3.10/dist-packages/slg_msgs/msg/_segment_array.py'...
+[72.886s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/local/lib/python3.10/dist-packages/slg_msgs/slg_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[72.887s] -- Set non-toolchain portion of runtime path of "/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/local/lib/python3.10/dist-packages/slg_msgs/slg_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[72.887s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/local/lib/python3.10/dist-packages/slg_msgs/slg_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[72.887s] -- Set non-toolchain portion of runtime path of "/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/local/lib/python3.10/dist-packages/slg_msgs/slg_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[72.887s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/local/lib/python3.10/dist-packages/slg_msgs/slg_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[72.888s] -- Set non-toolchain portion of runtime path of "/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/local/lib/python3.10/dist-packages/slg_msgs/slg_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[72.888s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/lib/libslg_msgs__rosidl_generator_py.so
+[72.889s] -- Set non-toolchain portion of runtime path of "/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/lib/libslg_msgs__rosidl_generator_py.so" to ""
+[72.889s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/ament_index/resource_index/rust_packages/slg_msgs
+[72.890s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/rust
+[72.890s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/rust/src
+[72.890s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/rust/src/lib.rs
+[72.890s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/rust/src/msg.rs
+[72.890s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/rust/src/msg
+[72.890s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/rust/src/msg/rmw.rs
+[72.891s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/rust/Cargo.toml
+[72.891s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/rust/build.rs
+[72.891s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/msg/Segment.idl
+[72.891s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/msg/SegmentArray.idl
+[72.892s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/msg/Segment.msg
+[72.892s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/msg/SegmentArray.msg
+[72.892s] -- Up-to-date: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs
+[72.892s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/segment2D.hpp
+[72.893s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/polygon.hpp
+[72.893s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/include/slg_msgs/point2D.hpp
+[72.893s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/ament_index/resource_index/package_run_dependencies/slg_msgs
+[72.894s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/ament_index/resource_index/parent_prefix_path/slg_msgs
+[72.894s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/environment/ament_prefix_path.sh
+[72.894s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/environment/ament_prefix_path.dsv
+[72.894s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/environment/path.sh
+[72.895s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/environment/path.dsv
+[72.895s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/local_setup.bash
+[72.895s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/local_setup.sh
+[72.896s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/local_setup.zsh
+[72.896s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/local_setup.dsv
+[72.896s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/package.dsv
+[72.896s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/ament_index/resource_index/packages/slg_msgs
+[72.897s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/cmake/export_slg_msgs__rosidl_generator_cExport.cmake
+[72.897s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/cmake/export_slg_msgs__rosidl_generator_cExport-release.cmake
+[72.897s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/cmake/export_slg_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[72.898s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/cmake/export_slg_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[72.898s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/cmake/slg_msgs__rosidl_typesupport_introspection_cExport.cmake
+[72.898s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/cmake/slg_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[72.899s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/cmake/slg_msgs__rosidl_typesupport_cExport.cmake
+[72.899s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/cmake/slg_msgs__rosidl_typesupport_cExport-release.cmake
+[72.899s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/cmake/export_slg_msgs__rosidl_generator_cppExport.cmake
+[72.900s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/cmake/export_slg_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[72.900s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/cmake/export_slg_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[72.900s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/cmake/slg_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[72.900s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/cmake/slg_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[72.901s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/cmake/slg_msgs__rosidl_typesupport_cppExport.cmake
+[72.901s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/cmake/slg_msgs__rosidl_typesupport_cppExport-release.cmake
+[72.901s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/cmake/export_slg_msgs__rosidl_generator_pyExport.cmake
+[72.902s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/cmake/export_slg_msgs__rosidl_generator_pyExport-release.cmake
+[72.902s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/cmake/export_slg_msgsExport.cmake
+[72.902s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/cmake/rosidl_cmake-extras.cmake
+[72.903s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[72.903s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[72.903s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[72.903s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[72.904s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[72.904s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[72.905s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/cmake/slg_msgsConfig.cmake
+[72.905s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/cmake/slg_msgsConfig-version.cmake
+[72.905s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/package.xml
+[72.909s] Invoked command in '/home/rhobtor/PHD/test_j8_hayat/J8/build/slg_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ntrip_client:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/j8_gui:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/car:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/android_ros2_server:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/GUI_pkg:/opt/ros/humble /opt/st/stm32cubeclt_1.18.0/CMake/bin/cmake --install /home/rhobtor/PHD/test_j8_hayat/J8/build/slg_msgs

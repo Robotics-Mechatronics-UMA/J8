@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "slg_msgs__py",
+		"source" : "/home/rhobtor/PHD/test_j8_hayat/J8/build/slg_msgs/slg_msgs__py"
+	}
+}

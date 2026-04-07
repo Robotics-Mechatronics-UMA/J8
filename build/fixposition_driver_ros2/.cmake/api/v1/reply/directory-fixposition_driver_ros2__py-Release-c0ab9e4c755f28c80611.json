@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "fixposition_driver_ros2__py",
+		"source" : "/home/rhobtor/PHD/test_j8_hayat/J8/build/fixposition_driver_ros2/fixposition_driver_ros2__py"
+	}
+}

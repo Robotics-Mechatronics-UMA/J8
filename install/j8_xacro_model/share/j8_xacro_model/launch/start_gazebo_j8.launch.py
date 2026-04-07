@@ -1,0 +1,1 @@
+/home/rhobtor/PHD/test_j8_hayat/J8/src/gazebo_sim_pkgs/j8_xacro_model/launch/start_gazebo_j8.launch.py

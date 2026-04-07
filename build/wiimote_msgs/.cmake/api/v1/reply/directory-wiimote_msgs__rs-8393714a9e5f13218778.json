@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "wiimote_msgs__rs",
+		"source" : "/home/rhobtor/PHD/test_j8_hayat/J8/build/wiimote_msgs/wiimote_msgs__rs"
+	}
+}

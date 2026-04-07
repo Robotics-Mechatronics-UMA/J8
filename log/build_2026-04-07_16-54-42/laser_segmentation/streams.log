@@ -1,0 +1,222 @@
+[0.033s] Invoking command in '/home/rhobtor/PHD/test_j8_hayat/J8/build/laser_segmentation': AMENT_PREFIX_PATH=/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/wiimote_msgs:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ublox:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ublox_gps:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/security_check:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ctl_mission:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ublox_msgs:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ublox_serialization:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/spacenav:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/laser_segmentation:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/slg_msgs:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/security_check_interfaces:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/joy:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/sdl2_vendor:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/path_manager:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/path_manager_interfaces:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/joy_linux:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/j8_xacro_model:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/hector_gazebo_plugins:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/fixposition_sensor_pkg:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/fixposition_odometry_converter_ros2:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/fixposition_driver_ros2:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/fixposition_driver_lib:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/fixposition_gnss_tf:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ctl_mission_interfaces:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/car_cpp:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/car_interfaces:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/argj801_setup:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/argj801_sensors:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/argj801_sensors_msgs:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/argj801_ctl_platform:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/argj801_ctl_platform_interfaces:/home/rhobtor/zed/install/zed_ros2:/home/rhobtor/zed/install/zed_wrapper:/home/rhobtor/zed/install/zed_components:/home/rhobtor/zed/install/zed_interfaces:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ntrip_client:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/j8_gui:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/car:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/android_ros2_server:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/GUI_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /opt/st/stm32cubeclt_1.18.0/CMake/bin/cmake /home/rhobtor/PHD/test_j8_hayat/J8/src/lidar_process_pkgs/laser_segmentation -DCMAKE_INSTALL_PREFIX=/home/rhobtor/PHD/test_j8_hayat/J8/install/laser_segmentation
+[0.121s] -- The C compiler identification is GNU 11.4.0
+[0.225s] -- The CXX compiler identification is GNU 11.4.0
+[0.264s] -- Detecting C compiler ABI info
+[0.414s] -- Detecting C compiler ABI info - done
+[0.444s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.445s] -- Detecting C compile features
+[0.446s] -- Detecting C compile features - done
+[0.469s] -- Detecting CXX compiler ABI info
+[0.652s] -- Detecting CXX compiler ABI info - done
+[0.688s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.689s] -- Detecting CXX compile features
+[0.690s] -- Detecting CXX compile features - done
+[0.691s] -- Setting build type to Release as none was specified.
+[0.699s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.089s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.479s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[1.706s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.739s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.783s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.844s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.928s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.155s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.167s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.385s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.447s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.538s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.566s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.686s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.688s] -- Found Threads: TRUE  
+[2.821s] -- Found rclcpp_components: 16.0.18 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.897s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.990s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[3.049s] -- Found nav2_util: 1.1.20 (/opt/ros/humble/share/nav2_util/cmake)
+[3.419s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.422s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.422s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.578s] -- Found slg_msgs: 3.8.0 (/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/share/slg_msgs/cmake)
+[3.621s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[3.722s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:146 (find_package):
+[3.722s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[3.722s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[3.723s]   cmake_policy command to set the policy and suppress this warning.
+[3.723s] 
+[3.723s]   CMake variable EIGEN_ROOT is set to:
+[3.723s] 
+[3.723s]     /usr/include/eigen3
+[3.723s] 
+[3.723s]   For compatibility, find_package is ignoring the variable, but code in a
+[3.723s]   .cmake module might still use it.
+[3.723s] Call Stack (most recent call first):
+[3.723s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:299 (find_eigen)
+[3.723s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[3.723s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[3.723s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[3.723s]   /opt/ros/humble/share/pcl_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[3.723s]   /opt/ros/humble/share/pcl_ros/cmake/pcl_rosConfig.cmake:41 (include)
+[3.723s]   CMakeLists.txt:54 (find_package)
+[3.723s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.723s] [0m
+[3.735s] -- Checking for module 'eigen3'
+[3.770s] --   Found eigen3, version 3.4.0
+[3.844s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[3.844s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.922s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:44 (find_package):
+[3.922s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[3.922s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[3.922s]   cmake_policy command to set the policy and suppress this warning.
+[3.923s] 
+[3.923s]   CMake variable FLANN_ROOT is set to:
+[3.923s] 
+[3.923s]     /usr
+[3.923s] 
+[3.923s]   For compatibility, find_package is ignoring the variable, but code in a
+[3.923s]   .cmake module might still use it.
+[3.924s] Call Stack (most recent call first):
+[3.924s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:256 (find_package)
+[3.924s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:301 (find_flann)
+[3.924s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[3.924s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[3.924s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[3.924s]   /opt/ros/humble/share/pcl_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[3.924s]   /opt/ros/humble/share/pcl_ros/cmake/pcl_rosConfig.cmake:41 (include)
+[3.925s]   CMakeLists.txt:54 (find_package)
+[3.925s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.925s] [0m
+[3.953s] -- Checking for module 'flann'
+[3.991s] --   Found flann, version 1.9.1
+[4.090s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[4.091s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[6.436s] -- Checking for module 'libusb-1.0'
+[6.485s] --   Found libusb-1.0, version 1.0.25
+[6.577s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[6.581s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[6.723s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[7.547s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[7.565s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[7.581s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[8.372s] -- Found Qhull version 8.0.2
+[9.599s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[10.663s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[10.666s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[10.669s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[10.671s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[10.674s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[10.676s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[10.677s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[10.678s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[10.681s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[10.683s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[10.686s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[10.688s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[10.690s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[10.693s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[10.696s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[10.698s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[10.701s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[10.704s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[10.706s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[10.709s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[10.710s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[10.711s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[10.714s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[10.716s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[10.719s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[10.749s] [33mCMake Warning (dev) at CMakeLists.txt:55 (find_package):
+[10.749s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[10.749s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[10.750s]   command to set the policy and suppress this warning.
+[10.750s] 
+[10.750s]   CMake variable PCL_ROOT is set to:
+[10.750s] 
+[10.750s]     /usr
+[10.750s] 
+[10.751s]   For compatibility, CMake is ignoring the variable.
+[10.751s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[10.751s] [0m
+[10.771s] -- Found tf2_eigen: 0.25.19 (/opt/ros/humble/share/tf2_eigen/cmake)
+[10.989s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.218s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[11.556s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.557s] -- Configured cppcheck include dirs: /home/rhobtor/PHD/test_j8_hayat/J8/src/lidar_process_pkgs/laser_segmentation/include
+[11.557s] -- Configured cppcheck exclude dirs and/or files: 
+[11.562s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[11.562s] -- Configured cpplint exclude dirs and/or files: 
+[11.564s] -- Added test 'flake8' to check Python code syntax and style conventions
+[11.567s] -- Added test 'lint_cmake' to check CMake code style
+[11.569s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[11.573s] -- Added test 'uncrustify' to check C / C++ code style
+[11.574s] -- Configured uncrustify additional arguments: 
+[11.576s] -- Added test 'xmllint' to check XML markup files
+[11.583s] -- Configuring done (11.5s)
+[12.148s] -- Generating done (0.5s)
+[12.192s] -- Build files have been written to: /home/rhobtor/PHD/test_j8_hayat/J8/build/laser_segmentation
+[12.229s] Invoked command in '/home/rhobtor/PHD/test_j8_hayat/J8/build/laser_segmentation' returned '0': AMENT_PREFIX_PATH=/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/wiimote_msgs:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ublox:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ublox_gps:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/security_check:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ctl_mission:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ublox_msgs:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ublox_serialization:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/spacenav:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/laser_segmentation:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/slg_msgs:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/security_check_interfaces:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/joy:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/sdl2_vendor:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/path_manager:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/path_manager_interfaces:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/joy_linux:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/j8_xacro_model:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/hector_gazebo_plugins:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/fixposition_sensor_pkg:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/fixposition_odometry_converter_ros2:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/fixposition_driver_ros2:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/fixposition_driver_lib:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/fixposition_gnss_tf:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ctl_mission_interfaces:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/car_cpp:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/car_interfaces:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/argj801_setup:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/argj801_sensors:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/argj801_sensors_msgs:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/argj801_ctl_platform:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/argj801_ctl_platform_interfaces:/home/rhobtor/zed/install/zed_ros2:/home/rhobtor/zed/install/zed_wrapper:/home/rhobtor/zed/install/zed_components:/home/rhobtor/zed/install/zed_interfaces:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ntrip_client:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/j8_gui:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/car:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/android_ros2_server:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/GUI_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /opt/st/stm32cubeclt_1.18.0/CMake/bin/cmake /home/rhobtor/PHD/test_j8_hayat/J8/src/lidar_process_pkgs/laser_segmentation -DCMAKE_INSTALL_PREFIX=/home/rhobtor/PHD/test_j8_hayat/J8/install/laser_segmentation
+[12.234s] Invoking command in '/home/rhobtor/PHD/test_j8_hayat/J8/build/laser_segmentation': AMENT_PREFIX_PATH=/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/wiimote_msgs:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ublox:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ublox_gps:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/security_check:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ctl_mission:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ublox_msgs:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ublox_serialization:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/spacenav:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/laser_segmentation:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/slg_msgs:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/security_check_interfaces:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/joy:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/sdl2_vendor:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/path_manager:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/path_manager_interfaces:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/joy_linux:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/j8_xacro_model:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/hector_gazebo_plugins:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/fixposition_sensor_pkg:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/fixposition_odometry_converter_ros2:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/fixposition_driver_ros2:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/fixposition_driver_lib:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/fixposition_gnss_tf:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ctl_mission_interfaces:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/car_cpp:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/car_interfaces:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/argj801_setup:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/argj801_sensors:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/argj801_sensors_msgs:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/argj801_ctl_platform:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/argj801_ctl_platform_interfaces:/home/rhobtor/zed/install/zed_ros2:/home/rhobtor/zed/install/zed_wrapper:/home/rhobtor/zed/install/zed_components:/home/rhobtor/zed/install/zed_interfaces:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ntrip_client:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/j8_gui:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/car:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/android_ros2_server:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/GUI_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /opt/st/stm32cubeclt_1.18.0/CMake/bin/cmake --build /home/rhobtor/PHD/test_j8_hayat/J8/build/laser_segmentation -- -j16 -l16
+[12.316s] [  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[12.317s] [ 11%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[12.318s] [ 17%] [32mBuilding CXX object CMakeFiles/laser_segmentation_component.dir/src/segmentation/jump_distance.cpp.o[0m
+[12.328s] [ 23%] [32mBuilding CXX object CMakeFiles/laser_segmentation_component.dir/src/segmentation/jump_distance_merge.cpp.o[0m
+[12.329s] [ 29%] [32mBuilding CXX object CMakeFiles/laser_segmentation_component.dir/src/parameter_handler.cpp.o[0m
+[12.333s] [ 35%] [32mBuilding CXX object CMakeFiles/laser_segmentation_component.dir/src/laser_segmentation.cpp.o[0m
+[15.186s] [ 41%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[15.234s] [ 41%] Built target gtest_main
+[28.031s] [ 47%] [32m[1mLinking CXX static library libgtest.a[0m
+[28.079s] [ 47%] Built target gtest
+[50.138s] [ 52%] [32m[1mLinking CXX shared library liblaser_segmentation_component.so[0m
+[51.605s] [ 52%] Built target laser_segmentation_component
+[51.635s] [ 58%] [32mBuilding CXX object CMakeFiles/laser_segmentation.dir/src/main.cpp.o[0m
+[51.642s] [ 64%] [32mBuilding CXX object test/CMakeFiles/test_integration.dir/test_integration.cpp.o[0m
+[51.643s] [ 70%] [32mBuilding CXX object test/CMakeFiles/test_segmentations.dir/test_segmentations.cpp.o[0m
+[51.644s] [ 76%] [32mBuilding CXX object test/CMakeFiles/test_laser_segmentation.dir/test_laser_segmentation.cpp.o[0m
+[59.241s] [ 82%] [32m[1mLinking CXX executable test_segmentations[0m
+[60.121s] [ 82%] Built target test_segmentations
+[69.770s] [ 88%] [32m[1mLinking CXX executable laser_segmentation[0m
+[70.753s] [ 88%] Built target laser_segmentation
+[75.542s] [ 94%] [32m[1mLinking CXX executable test_laser_segmentation[0m
+[77.582s] [ 94%] Built target test_laser_segmentation
+[99.848s] [100%] [32m[1mLinking CXX executable test_integration[0m
+[101.840s] [100%] Built target test_integration
+[101.866s] Invoked command in '/home/rhobtor/PHD/test_j8_hayat/J8/build/laser_segmentation' returned '0': AMENT_PREFIX_PATH=/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/wiimote_msgs:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ublox:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ublox_gps:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/security_check:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ctl_mission:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ublox_msgs:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ublox_serialization:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/spacenav:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/laser_segmentation:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/slg_msgs:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/security_check_interfaces:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/joy:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/sdl2_vendor:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/path_manager:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/path_manager_interfaces:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/joy_linux:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/j8_xacro_model:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/hector_gazebo_plugins:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/fixposition_sensor_pkg:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/fixposition_odometry_converter_ros2:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/fixposition_driver_ros2:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/fixposition_driver_lib:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/fixposition_gnss_tf:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ctl_mission_interfaces:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/car_cpp:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/car_interfaces:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/argj801_setup:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/argj801_sensors:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/argj801_sensors_msgs:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/argj801_ctl_platform:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/argj801_ctl_platform_interfaces:/home/rhobtor/zed/install/zed_ros2:/home/rhobtor/zed/install/zed_wrapper:/home/rhobtor/zed/install/zed_components:/home/rhobtor/zed/install/zed_interfaces:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ntrip_client:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/j8_gui:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/car:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/android_ros2_server:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/GUI_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /opt/st/stm32cubeclt_1.18.0/CMake/bin/cmake --build /home/rhobtor/PHD/test_j8_hayat/J8/build/laser_segmentation -- -j16 -l16
+[101.867s] Invoking command in '/home/rhobtor/PHD/test_j8_hayat/J8/build/laser_segmentation': AMENT_PREFIX_PATH=/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/wiimote_msgs:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ublox:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ublox_gps:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/security_check:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ctl_mission:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ublox_msgs:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ublox_serialization:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/spacenav:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/laser_segmentation:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/slg_msgs:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/security_check_interfaces:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/joy:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/sdl2_vendor:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/path_manager:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/path_manager_interfaces:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/joy_linux:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/j8_xacro_model:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/hector_gazebo_plugins:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/fixposition_sensor_pkg:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/fixposition_odometry_converter_ros2:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/fixposition_driver_ros2:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/fixposition_driver_lib:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/fixposition_gnss_tf:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ctl_mission_interfaces:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/car_cpp:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/car_interfaces:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/argj801_setup:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/argj801_sensors:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/argj801_sensors_msgs:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/argj801_ctl_platform:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/argj801_ctl_platform_interfaces:/home/rhobtor/zed/install/zed_ros2:/home/rhobtor/zed/install/zed_wrapper:/home/rhobtor/zed/install/zed_components:/home/rhobtor/zed/install/zed_interfaces:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ntrip_client:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/j8_gui:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/car:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/android_ros2_server:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/GUI_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /opt/st/stm32cubeclt_1.18.0/CMake/bin/cmake --install /home/rhobtor/PHD/test_j8_hayat/J8/build/laser_segmentation
+[101.881s] -- Install configuration: "Release"
+[101.881s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/laser_segmentation/lib/liblaser_segmentation_component.so
+[101.894s] -- Set non-toolchain portion of runtime path of "/home/rhobtor/PHD/test_j8_hayat/J8/install/laser_segmentation/lib/liblaser_segmentation_component.so" to ""
+[101.894s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/laser_segmentation/lib/laser_segmentation/laser_segmentation
+[101.894s] -- Set non-toolchain portion of runtime path of "/home/rhobtor/PHD/test_j8_hayat/J8/install/laser_segmentation/lib/laser_segmentation/laser_segmentation" to ""
+[101.894s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/laser_segmentation/include/laser_segmentation
+[101.898s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/laser_segmentation/include/laser_segmentation/parameter_handler.hpp
+[101.902s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/laser_segmentation/include/laser_segmentation/parula.hpp
+[101.906s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/laser_segmentation/include/laser_segmentation/segmentation
+[101.906s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/laser_segmentation/include/laser_segmentation/segmentation/segmentation.hpp
+[101.907s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/laser_segmentation/include/laser_segmentation/segmentation/jump_distance.hpp
+[101.907s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/laser_segmentation/include/laser_segmentation/segmentation/jump_distance_merge.hpp
+[101.907s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/laser_segmentation/include/laser_segmentation/laser_segmentation.hpp
+[101.907s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/laser_segmentation/share/laser_segmentation//launch
+[101.907s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/laser_segmentation/share/laser_segmentation//launch/segmentation.launch.py
+[101.908s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/laser_segmentation/share/laser_segmentation//params
+[101.908s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/laser_segmentation/share/laser_segmentation//params/default_params.yml
+[101.908s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/laser_segmentation/share/laser_segmentation//params/close_steps_detect.yml
+[101.908s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/laser_segmentation/share/laser_segmentation/environment/library_path.sh
+[101.912s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/laser_segmentation/share/laser_segmentation/environment/library_path.dsv
+[101.912s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/laser_segmentation/share/ament_index/resource_index/package_run_dependencies/laser_segmentation
+[101.912s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/laser_segmentation/share/ament_index/resource_index/parent_prefix_path/laser_segmentation
+[101.912s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/laser_segmentation/share/laser_segmentation/environment/ament_prefix_path.sh
+[101.913s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/laser_segmentation/share/laser_segmentation/environment/ament_prefix_path.dsv
+[101.913s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/laser_segmentation/share/laser_segmentation/environment/path.sh
+[101.913s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/laser_segmentation/share/laser_segmentation/environment/path.dsv
+[101.913s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/laser_segmentation/share/laser_segmentation/local_setup.bash
+[101.913s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/laser_segmentation/share/laser_segmentation/local_setup.sh
+[101.916s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/laser_segmentation/share/laser_segmentation/local_setup.zsh
+[101.916s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/laser_segmentation/share/laser_segmentation/local_setup.dsv
+[101.917s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/laser_segmentation/share/laser_segmentation/package.dsv
+[101.917s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/laser_segmentation/share/ament_index/resource_index/packages/laser_segmentation
+[101.918s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/laser_segmentation/share/ament_index/resource_index/rclcpp_components/laser_segmentation
+[101.918s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/laser_segmentation/share/laser_segmentation/cmake/ament_cmake_export_include_directories-extras.cmake
+[101.918s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/laser_segmentation/share/laser_segmentation/cmake/ament_cmake_export_libraries-extras.cmake
+[101.918s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/laser_segmentation/share/laser_segmentation/cmake/ament_cmake_export_dependencies-extras.cmake
+[101.918s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/laser_segmentation/share/laser_segmentation/cmake/laser_segmentationConfig.cmake
+[101.918s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/laser_segmentation/share/laser_segmentation/cmake/laser_segmentationConfig-version.cmake
+[101.919s] -- Installing: /home/rhobtor/PHD/test_j8_hayat/J8/install/laser_segmentation/share/laser_segmentation/package.xml
+[101.936s] Invoked command in '/home/rhobtor/PHD/test_j8_hayat/J8/build/laser_segmentation' returned '0': AMENT_PREFIX_PATH=/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/wiimote_msgs:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ublox:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ublox_gps:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/security_check:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ctl_mission:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ublox_msgs:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ublox_serialization:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/spacenav:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/laser_segmentation:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/slg_msgs:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/security_check_interfaces:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/joy:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/sdl2_vendor:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/path_manager:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/path_manager_interfaces:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/joy_linux:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/j8_xacro_model:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/hector_gazebo_plugins:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/fixposition_sensor_pkg:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/fixposition_odometry_converter_ros2:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/fixposition_driver_ros2:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/fixposition_driver_lib:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/fixposition_gnss_tf:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ctl_mission_interfaces:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/car_cpp:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/car_interfaces:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/argj801_setup:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/argj801_sensors:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/argj801_sensors_msgs:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/argj801_ctl_platform:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/argj801_ctl_platform_interfaces:/home/rhobtor/zed/install/zed_ros2:/home/rhobtor/zed/install/zed_wrapper:/home/rhobtor/zed/install/zed_components:/home/rhobtor/zed/install/zed_interfaces:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/ntrip_client:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/j8_gui:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/car:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/android_ros2_server:/home/rhobtor/PHD/ARGOJ8_IA/ARGOSJ8_IA_/install/GUI_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rhobtor/PHD/test_j8_hayat/J8/install/slg_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /opt/st/stm32cubeclt_1.18.0/CMake/bin/cmake --install /home/rhobtor/PHD/test_j8_hayat/J8/build/laser_segmentation

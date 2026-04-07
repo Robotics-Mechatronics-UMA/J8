@@ -16,8 +16,6 @@ ENV DEBIAN_FRONTEND=noninteractive \
     LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 \
     SETUPTOOLS_USE_DISTUTILS=stdlib \
     ROS_DOMAIN_ID=0 \
-    RMW_IMPLEMENTATION=rmw_cyclonedds_cpp \
-    CYCLONEDDS_URI=file:///etc/cyclonedds/local_cyclonedds.xml \
     QT_X11_NO_MITSHM=1 \
     # Para QtWebEngine dentro de contenedor (si ejecutas como root)
     QTWEBENGINE_DISABLE_SANDBOX=1 \

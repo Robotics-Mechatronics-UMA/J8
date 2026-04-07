@@ -1,0 +1,5 @@
+/home/rhobtor/PHD/test_j8_hayat/J8/build/argj801_ctl_platform_interfaces/rosidl_adapter/argj801_ctl_platform_interfaces:srv/SetVelocity.idl
+/home/rhobtor/PHD/test_j8_hayat/J8/build/argj801_ctl_platform_interfaces/rosidl_adapter/argj801_ctl_platform_interfaces:srv/GetVelocity.idl
+/home/rhobtor/PHD/test_j8_hayat/J8/build/argj801_ctl_platform_interfaces/rosidl_adapter/argj801_ctl_platform_interfaces:srv/EmergencyStop.idl
+/home/rhobtor/PHD/test_j8_hayat/J8/build/argj801_ctl_platform_interfaces/rosidl_adapter/argj801_ctl_platform_interfaces:msg/CmdThrottleMsg.idl
+/home/rhobtor/PHD/test_j8_hayat/J8/build/argj801_ctl_platform_interfaces/rosidl_adapter/argj801_ctl_platform_interfaces:msg/KinematicDebugMsg.idl
