@@ -119,9 +119,9 @@ RUN apt-get update && \
 # 7) Copiar código y compilar el workspace -------------------------------------
 WORKDIR /ros2_ws
 COPY src ./src
-RUN mkdir -p /etc/cyclonedds
-# XML estático de red local (sin ZeroTier, sin template)
-COPY local_cyclonedds_localnet.xml /etc/cyclonedds/local_cyclonedds.xml
+# RUN mkdir -p /etc/cyclonedds
+# # XML estático de red local (sin ZeroTier, sin template)
+# COPY local_cyclonedds_localnet.xml /etc/cyclonedds/local_cyclonedds.xml
 
 RUN apt-get update && \
     bash -c "set -e \
