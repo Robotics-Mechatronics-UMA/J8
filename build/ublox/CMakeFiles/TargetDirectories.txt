@@ -1,9 +1,0 @@
-/home/rhobtor/PHD/test_j8_hayat/J8/build/ublox/CMakeFiles/uninstall.dir
-/home/rhobtor/PHD/test_j8_hayat/J8/build/ublox/CMakeFiles/ublox_uninstall.dir
-/home/rhobtor/PHD/test_j8_hayat/J8/build/ublox/CMakeFiles/test.dir
-/home/rhobtor/PHD/test_j8_hayat/J8/build/ublox/CMakeFiles/edit_cache.dir
-/home/rhobtor/PHD/test_j8_hayat/J8/build/ublox/CMakeFiles/rebuild_cache.dir
-/home/rhobtor/PHD/test_j8_hayat/J8/build/ublox/CMakeFiles/list_install_components.dir
-/home/rhobtor/PHD/test_j8_hayat/J8/build/ublox/CMakeFiles/install.dir
-/home/rhobtor/PHD/test_j8_hayat/J8/build/ublox/CMakeFiles/install/local.dir
-/home/rhobtor/PHD/test_j8_hayat/J8/build/ublox/CMakeFiles/install/strip.dir
