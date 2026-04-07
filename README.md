@@ -43,9 +43,8 @@ root
 
 ### Building the Workspace
 ```sh
-# Clone the repository with submodules
-git clone --recurse-submodules git@github.com:Robotics-Mechatronics-UMA/ARGOJ8_ws.git
-cd ARGO_ws/
+# Clone the repo
+git clone https://github.com/Robotics-Mechatronics-UMA/J8.git
 
 # Install dependencies
 ./install.sh
