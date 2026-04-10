@@ -64,13 +64,23 @@ class FollowZEDWidget(QWidget):
         self._leader_id = None
         self._leader_distance = math.nan
         self._leader_last_rendered = (None, None)
-        self._subscribe()
+        self._subscriptions_started = False
+        self.status.setText('FollowZED: suscripciones diferidas hasta abrir la pestaña')
 
     def log(self, s):
         try:
             self.logs.appendPlainText(s)
         except Exception:
             pass
+
+    def ensure_started(self):
+        if self._subscriptions_started:
+            return
+        self._subscriptions_started = True
+        self._subscribe()
+
+    def set_ros(self, node):
+        self.node = node
 
     def _subscribe(self):
         try:
